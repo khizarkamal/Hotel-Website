@@ -1,0 +1,82 @@
+#aboutus{
+    background-color: #eee;
+    height:300px;
+    padding:2rem 3rem;
+}
+
+
+
+.aboutus__details{
+    float:left;
+    width: 60%;
+}
+
+.aboutus__image{
+    height: 100%;
+    float: right;
+    width:40%;
+  
+}
+
+.aboutus__image img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.aboutus__heading{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.aboutus__details p {
+    margin-bottom: 1rem;
+}
+
+.clr{
+    float: clear;
+}
+
+/* Testimonials */
+
+#testimonials{
+    padding: 3rem 3rem;
+    height: 600px;
+    background: url("https://cdn.pixabay.com/photo/2022/05/03/20/09/prague-7172594_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.testimonial{
+    background-color: #f7c08a;
+    margin-bottom: 1rem;
+    padding: 2rem 1rem;
+   
+}
+
+.testimonial__image{
+    width:120px;
+    float:left;
+}
+
+.testimonial__image img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.testimonial__paragraph{
+}
+
+.testimonial__heading{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
