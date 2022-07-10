@@ -1,0 +1,84 @@
+
+#form__container{
+    max-width: 80vw;
+    margin: 1rem auto;
+}
+
+#form__container *{
+    padding-bottom: 1rem;
+}
+
+.form {
+    width: 100%;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+}
+
+textarea{
+    height: 200px;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
+}
+
+
+button{
+    background-color: #333;
+    padding: 16px !important;
+    color:white;
+    font-size: 1rem;
+    border: none;
+
+}
+
+button:hover{
+    color:#f7c08a;
+}
+
+
+#info{
+    margin-top:1rem;
+    background-color: #333;
+}
+
+
+.info__location,
+.info__phone,
+.info__email{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    height: 150px;
+    padding: 1rem;
+    color:white;
+}
+
+
+
+i{
+    font-size: 2rem;
+    padding-bottom:.5rem;
+}
+
+h3{
+    padding-bottom: 0.5rem;
+}
+
+
+.info__phone{
+    /* background-color: #f7c08a; */
+}
