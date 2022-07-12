@@ -82,3 +82,38 @@
     margin-bottom: 1.5rem;
 }
 
+
+
+
+@media (min-width:768px) and (max-width:1024px){
+    .aboutus__heading{
+        margin-bottom: .3rem;
+    }
+    .aboutus__details p {
+        margin-bottom: .3rem;
+    }
+}
+
+@media (max-width:500px){
+    #aboutus{
+        height: 100%;
+        padding: 2rem 1.5rem;
+    }
+    .aboutus__details{
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    .aboutus__image{
+        width: 100%;
+        display: block;
+        float: none;
+    }
+    #testimonials{
+        height: 100%;
+    }
+    .testimonial{
+        color:black;
+        opacity:1;
+    }
+}

@@ -82,3 +82,27 @@ h3{
 .info__phone{
     /* background-color: #f7c08a; */
 }
+
+@media (min-width:768px) and (max-width:1024px){
+    .info__email{
+        width: 32%;
+    }
+}
+
+
+@media (max-width:500px){
+
+.info__location,
+.info__phone,
+.info__email{
+    border-bottom: 2px dotted #444;
+    display: block;
+    width: 100%;
+
+}
+
+.info__email{
+    border-bottom: none;
+}
+
+}
