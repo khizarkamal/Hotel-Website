@@ -1,0 +1,4 @@
+# Hotel-Website
+Design Practice 
+
+A SIMPLE FRONTEND HOTEL WEBSITE FOR PRACTICING SOME CSS 
